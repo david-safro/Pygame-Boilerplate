@@ -29,6 +29,7 @@ def main():
                 run = False
         clock.tick(FPS)
         draw_graphics()
+    pygame.display.update()
     pygame.quit()
 
 
